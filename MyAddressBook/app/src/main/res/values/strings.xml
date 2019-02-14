@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyAddressBook</string>
+    <!--Labels-->
+    <string name="txt_name">Name:</string>
+    <string name="txt_phone">Phone:</string>
+    <string name="txt_email">E-Mail:</string>
+    <string name="txt_street">Street:</string>
+    <string name="txt_city">City:</string>
+    <string name="txt_state">State:</string>
+    <string name="txt_zip">Zip:</string>
+    <!--Hints-->
+    <string name="hint_name">Enter name</string>
+    <string name="hint_phone">Enter phone</string>
+    <string name="hint_email">Enter e-mail</string>
+    <string name="hint_street">Enter street</string>
+    <string name="hint_city">Enter city</string>
+    <string name="hint_state">Enter state</string>
+    <string name="hint_zip">Enter zip</string>
+
+    <string name="item_edit">Edit contact</string>
+    <string name="item_remove">Remove contact</string>
+    <string name="list_item">list_item</string>
+    <string name="dialog_remove">Are you sure you want remove this contact from your
+        contact list?</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+</resources>

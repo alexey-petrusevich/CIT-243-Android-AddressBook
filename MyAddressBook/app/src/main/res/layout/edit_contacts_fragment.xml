@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_contacts_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <!--Name-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/text_view_name_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/txt_name"
+            android:gravity="right"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_name_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_name"
+            android:background="@drawable/edit_text_background"
+            android:padding="5dp"
+            />
+
+    </LinearLayout>
+
+    <!--Phone-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/text_view_phone_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/txt_phone"
+            android:gravity="right"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_phone_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_phone"
+            android:background="@drawable/edit_text_background"
+            android:padding="5dp"
+            />
+
+    </LinearLayout>
+
+    <!--E-Mail-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/text_view_email_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/txt_email"
+            android:layout_weight="4"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_email_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_email"
+            android:background="@drawable/edit_text_background"
+            android:padding="5dp"
+            />
+
+    </LinearLayout>
+
+    <!--Street-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/text_view_street_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/txt_street"
+            android:layout_weight="4"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_street_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_street"
+            android:background="@drawable/edit_text_background"
+            android:padding="5dp"
+            />
+
+    </LinearLayout>
+
+    <!--City-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/text_view_city_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/txt_city"
+            android:layout_weight="4"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_city_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_city"
+            android:background="@drawable/edit_text_background"
+            android:padding="5dp"
+            />
+
+    </LinearLayout>
+
+    <!--State-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/text_view_state_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/txt_state"
+            android:layout_weight="4"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_state_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_state"
+            android:background="@drawable/edit_text_background"
+            android:padding="5dp"
+            />
+
+    </LinearLayout>
+
+    <!--Zip-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/text_view_zip_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/txt_zip"
+            android:layout_weight="4"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_zip_editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_zip"
+            android:background="@drawable/edit_text_background"
+            android:padding="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_ok"
+            android:layout_weight="2"
+            android:padding="20dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_cancel"
+            android:layout_weight="2"
+            android:padding="20dp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>
